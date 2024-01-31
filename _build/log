@@ -1,0 +1,23 @@
+# dune run
+# OCAMLPARAM: unset
+# Shared cache: disabled
+# Shared cache location: /Users/feus/.cache/dune/db
+# Workspace root: /Users/feus/ocaml/hello
+# Auto-detected concurrency: 8
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; fdo_target_exe = None
+#  ; build_dir = In_build_dir "default"
+#  ; installed_env =
+#      map
+#        { "INSIDE_DUNE" : "/Users/feus/ocaml/hello/_build/default"
+#        ; "OCAML_COLOR" : "always"
+#        ; "OPAMCOLOR" : "always"
+#        }
+#  ; instrument_with = []
+#  }
+$ /Users/feus/.opam/default/bin/ocamlc.opt -config > /var/folders/wp/dxt3psss25d0pyl_bb9rp18r0000gn/T/dune_f5eb68_output
+$ (cd _build/default/test && ./test_hello.exe)
